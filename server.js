@@ -9,6 +9,10 @@ app.get('/chickens', (req, res, next) => {
 	res.sendFile(__dirname + '/html/seechickens.html');
 })
 
+app.get('/egg', (req, res, next) => {
+	res.sendFile(__dirname + '/html/seeoureggs.html');
+})
+
 app.listen(8080, () => {
 
 })
